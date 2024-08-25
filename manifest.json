@@ -1,6 +1,6 @@
 {
   "name": "FashionEvo",
-  "short_name": "AppShortName",
+  "short_name": "FashionEvo",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
