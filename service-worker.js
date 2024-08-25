@@ -19,6 +19,8 @@ const urlsToCache = [
   '/img/fv-high-resolution-logo-black.png',
   '/img/fv-high-resolution-logo-white-transparent.png',
   '/img/fv-high-resolution-logo.png',
+  '/img/fv-high-resolution-logo-white-transparent-192.png',
+  '/img/fv-high-resolution-logo-sq-512.png',
 ];
 
 self.addEventListener('install', event => {
