@@ -4,6 +4,9 @@ const cardContainer = document.getElementById("card-container");
 const card = document.getElementById("product-card");
 const btnMore = document.getElementById('btn-more');
 
+const btnSideBar = document.getElementsByClassName('btn-side-bar');
+const sideBar = document.getElementById('sidebar');
+
 const array = [
   { img: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg', name: ' Basic Tee', price: '88', color: 'Black' },
   { img: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg', name: 'Basic Tee', price: '34', color: 'Aspen White' },
@@ -80,3 +83,11 @@ btnMore.addEventListener('click', () => {
   count = count + 4;
 })
 
+// Side bar buttons
+
+btnSideBar[0].addEventListener("click", () => {
+  sideBar.classList.toggle('hidden')
+})
+btnSideBar[1].addEventListener("click", () => {
+  sideBar.classList.toggle('hidden')
+})
